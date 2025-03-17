@@ -71,3 +71,26 @@ button {
     padding: 8px 16px;
     align-self: flex-start;
 }
+
+.body-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.body {
+    text-align: center;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.title {
+    margin-bottom: 32px;
+}
+
+.info {
+    max-width: 200px;
+}
