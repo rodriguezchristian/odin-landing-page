@@ -1,20 +1,27 @@
-* {
+/* * {
     Border: 1px solid red;
-}
+} */
 
 img {
     width: 100px;
     height: 100px;
 }
 
+body {
+    margin: 0;
+    font-family: Roberto, sans-serif;
+}
+
 
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1f2937;
 }
 
 a {
     text-decoration: none;
+    color: pink;
 }
 
 ul {
@@ -28,4 +35,39 @@ li {
     list-style-type: none;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
 
+}
+
+.img-larger {
+    width: 700px;
+    height: 355px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.container-title {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.paragraph {
+    color: #F9FAF8;
+}
+
+button {
+    padding: 8px 16px;
+    align-self: flex-start;
+}
