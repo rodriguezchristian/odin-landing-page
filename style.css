@@ -8,6 +8,7 @@ img {
 }
 
 body {
+    height: 100vh;
     margin: 0;
     font-family: Roberto, sans-serif;
 }
@@ -93,4 +94,72 @@ button {
 
 .info {
     max-width: 200px;
+}
+
+.quote-container {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #E5E7Eb;
+}
+
+.quote-speaker {
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 900;
+    
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rectangle {
+    background-color: #3882F6; /* Solid color for the rectangle */
+    padding: 20px;
+    border-radius: 8px; /* Optional: rounded corners */
+    color: white;
+    flex: 1;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+
+.title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rectangle-paragraph {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px; /* Add some space between text and button */
+  }
+
+.sign-up-btn {
+    background-color: #3882F6; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
 }
